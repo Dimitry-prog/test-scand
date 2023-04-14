@@ -9,7 +9,12 @@ export default {
       fontFamily: {
         manrope: 'Manrope',
         'open-sans': 'OpenSans',
-      }
+      },
+      colors: {
+        'dark-blue': {
+          DEFAULT: '#0A2640',
+        },
+      },
     },
   },
   plugins: [],

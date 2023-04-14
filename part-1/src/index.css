@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
-    @apply font-open-sans font-normal text-xl leading-8 bg-gray-500;
+    @apply max-w-[1400px] mx-auto px-[100px] font-open-sans font-normal text-xl leading-8 text-dark-blue bg-gray-500;
 }
