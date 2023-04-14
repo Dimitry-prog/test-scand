@@ -14,6 +14,9 @@ export default {
         'dark-blue': {
           DEFAULT: '#0A2640',
         },
+        gray: {
+          DEFAULT: '#777777',
+        },
       },
     },
   },
