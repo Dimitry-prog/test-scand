@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        manrope: 'Manrope',
-        'open-sans': 'OpenSans',
+        manrope: ['Manrope', 'sans-serif'],
+        'open-sans': ['OpenSans','sans-serif'],
       },
       colors: {
         'dark-blue': {

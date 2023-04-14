@@ -6,7 +6,7 @@ import NewsCreated from "./NewsCreated";
 const Hero = () => {
     return (
         <section className="flex flex-col border-b border-dark-blue">
-            <div className="mt-12 mb-10 ">
+            <div className="mt-20 mb-16 ">
                 <p className="mb-3 text-center">Blog</p>
                 <h1 className="text-[64px] leading-[84px] text-center font-manrope">Thoughts and words</h1>
             </div>
