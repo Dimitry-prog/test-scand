@@ -1,3 +1,4 @@
+import Enterprise from "./components/Enterprise"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import NewsList from "./components/NewsList"
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Hero />
         <NewsList />
+        <Enterprise />
       </main>
     </div>
   )
