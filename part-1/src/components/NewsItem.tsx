@@ -14,11 +14,11 @@ type NewsItemProps = {
 
 const NewsItem = ({ id, imgSrc, category, createdAt, title, authorImg, authorName }: NewsItemProps) => {
     return (
-        <li className="max-w-[300px] w-full flex">
+        <li className="max-w-[250px] lg:max-w-[300px] w-full flex hover:scale-105 transition-all duration-500">
             <Link to={`/news/${id}`} className="flex flex-col flex-grow">
-                <img src={imgSrc} alt={authorName} className="h-[210px] mb-6 rounded-3xl" />
+                <img src={imgSrc} alt={authorName} className="h-[210px] mb-6 rounded-3xl object-cover" />
                 <NewsCreated category={category} date={createdAt} />
-                <h4 className="mt-3 mb-5 flex-grow text-xl leading-8 text-black">{title}</h4>
+                <h3 className="mt-3 mb-5 flex-grow text-xl leading-8 text-black">{title}</h3>
                 <Author authorImg={authorImg} authorName={authorName} />
             </Link>
         </li>

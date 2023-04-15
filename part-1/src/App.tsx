@@ -7,7 +7,7 @@ import NewsList from "./components/NewsList"
 function App() {
 
   return (
-    <div>
+    <div className="max-w-[1400px] mx-auto px-5 md:px-[50px] lg:px-[100px]">
       <Header />
 
       <main>
