@@ -6,3 +6,7 @@
 body {
     @apply font-open-sans font-normal text-xl leading-8 text-dark-blue;
 }
+
+a.active {
+    @apply text-blue-600;
+}
