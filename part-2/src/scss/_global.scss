@@ -1,2 +1,104 @@
 @import "src/scss/variables";
 
+.root {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+
+    &__main {}
+}
+
+.main {
+
+    &__test {}
+}
+
+.card {
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    padding: 40px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: $greyColor;
+    box-shadow: 0px 0px 6px -4px black;
+    border-radius: 10px;
+    transition: .5s;
+
+    &:hover {
+        background-color: $greenDarkColor;
+        color: $whiteColor;
+    }
+
+    &:hover &__icon {
+        margin-left: 10px;
+        fill: $whiteColor;
+        background-color: $greyColor;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    &:hover &__bullet {
+        fill: $whiteColor;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__icon {
+        width: 32px;
+        height: 32px;
+        margin-left: 30px;
+        fill: $blueColor;
+        transition: .5s;
+    }
+
+    &__title {
+        font-size: 30px;
+        font-weight: 200;
+        letter-spacing: 2px;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+        flex-grow: 1;
+    }
+
+    &__subtitle {
+        font-size: 25px;
+    }
+
+    &__list {
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+    }
+
+    &__item {
+        display: flex;
+        gap: 10px;
+    }
+
+    &__text {}
+
+    &__bullet {
+        width: 16px;
+        height: 16px;
+        fill: $greyColor;
+        transition: .5s;
+
+        &_check {}
+
+        &_circle {}
+    }
+
+    &__footer {}
+}
